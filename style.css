@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* header section */
+.navbar-dark .navbar-nav{
+    gap: 2rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+    /* color: white; */
+    font-size: 20px;   
+}
+.navbar-dark .navbar-brand img{
+    height: 3.5rem;
+}
+
+/* hero area section */
+#hero-area{
+    background: url("IMG/Cake_background.jpg");
+    width: 100%;
+    height: 87.7vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#hero-area .hero-div{
+    margin-top: 120px;
+}
+#hero-area .hero-div .f1{
+    font-size: 60px;
+}
+#hero-area .hero-div p{
+    max-width: 38rem;
+    margin: 30px 0;
+}
+@media (max-width:480px){
+    .navbar-dark .navbar-brand img{
+        height: 2rem;
+    }
+    #hero-area{
+        height: 400px;
+    }
+    #hero-area .hero-div{
+        margin-top: 30px;
+    }
+    #hero-area .hero-div .f1{
+        font-size: 28px;
+    }
+    #hero-area .hero-div p{
+        /* max-width: 39rem; */
+        text-align: justify;
+        margin: 20px 0;
+    }
+}
+@media (min-width:481px) and (max-width:768px){
+    #hero-area{
+        height: 600px;
+    }
+    #hero-area .hero-div{
+        margin-top: 120px;
+    }
+    #hero-area .hero-div .f1{
+        font-size: 43px;
+    }
+    #hero-area .hero-div p{
+        margin: 30px 0;
+        font-size: 1.2rem;
+    }
+}
+@media (min-width:768px) and (max-width:850px){
+    #hero-area{
+        height: 800px;
+    }
+    #hero-area .hero-div{
+        margin-top: 160px;
+    }
+    #hero-area .hero-div .f1{
+        font-size: 63px;
+    }
+    #hero-area .hero-div p{
+        margin: 30px 0;
+        font-size: 1.5rem;
+    }
+    #hero-area button{
+        font-size: 1.5rem;
+    }
+}
+@media (min-width:900px) and (max-width:1024px){
+    #hero-area{
+        height: 800px;
+    }
+    #hero-area .hero-div{
+        margin-top: 160px;
+    }
+    #hero-area .hero-div .f1{
+        font-size: 75px;
+    }
+}
+
+/* About Section  */
+
+#about p{
+    text-align: justify;
+}
+
+
+/* discount section  */
+
+#discount{
+    background: url("IMG/Discount2.jpg");
+    /* width: 100%; */
+    /* height: 25vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+}
+#discount .discount{
+    margin: 60px 0;
+}
+
+.fix-btn{
+    position: fixed;
+    z-index: 1;
+    right: 2%;
+    bottom: 5%;
+}
